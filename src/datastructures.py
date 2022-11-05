@@ -16,7 +16,7 @@ class FamilyStructure:
         self.members = [{
         "first_name": "Tommy",
         "last_name": self.last_name,
-        "id": self._generateId(),
+        "id": int(),
 		"age": 23,
 		"lucky_numbers": [32,12]
 	}]
